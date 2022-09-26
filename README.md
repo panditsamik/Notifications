@@ -1,6 +1,6 @@
 # Notifications
 A Simple App using 'Alerter' - An Android Alerter Library in Kotlin.
-This library aims to overcome the limitations of Toasts and Snackbars, while reducing the complexity of your layouts.
+This library aims to overcome the limitations of Toasts and Snackbars, while reducing the complexity of layouts.
 
 # Install
 
