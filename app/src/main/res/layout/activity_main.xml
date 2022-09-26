@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/normalalert"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:backgroundTint="#001d3d"
+        android:text="Normal Alert"
+        android:textSize="20sp"
+        app:cornerRadius="10dp" />
+
+    <Button
+        android:id="@+id/customizedalert"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:backgroundTint="#001d3d"
+        android:text="customized alert"
+        android:textSize="20sp"
+        app:cornerRadius="10dp" />
+
+    <Button
+        android:id="@+id/swipealert"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:backgroundTint="#001d3d"
+        android:text="swipe alert"
+        android:textSize="20sp"
+        app:cornerRadius="10dp" />
+
+    <Button
+        android:id="@+id/progressalert"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:backgroundTint="#001d3d"
+        android:text="Progress alert"
+        android:textSize="20sp"
+        app:cornerRadius="10dp" />
+
+    <Button
+        android:id="@+id/buttonalert"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:backgroundTint="#001d3d"
+        android:text="Button Alert"
+        android:textSize="20sp"
+        app:cornerRadius="10dp" />
+
+</LinearLayout>
